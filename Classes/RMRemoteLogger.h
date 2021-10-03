@@ -3,8 +3,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-#import <CocoaLumberjack/CocoaLumberjack.h>
+@import CocoaLumberjack;
 
 @interface RMRemoteLogger : DDAbstractLogger {
     NSString *_host;

@@ -3,6 +3,7 @@
 //
 
 #import "RMDataDogFormatter.h"
+#import <UIKit/UIKit.h>
 
 @implementation RMDataDogFormatter {
     NSString *_programName;

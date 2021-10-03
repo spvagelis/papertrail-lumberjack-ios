@@ -141,3 +141,13 @@ Build Archives/
 # UNKNOWN: recommended by others, but I can't discover what these files are
 #
 # ...none. Everything is now explained.
+
+#####
+# Swift Package Manager
+Build Archives/
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
+DerivedData/

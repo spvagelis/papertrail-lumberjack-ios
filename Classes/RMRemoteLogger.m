@@ -4,11 +4,9 @@
 
 #import "RMRemoteLogger.h"
 #import "RMSyslogFormatter.h"
+@import CocoaAsyncSocket;
 
-#import <CocoaAsyncSocket/GCDAsyncUdpSocket.h>
-#import <CocoaAsyncSocket/GCDAsyncSocket.h>
-
-@interface RMRemoteLogger () {
+@interface RMRemoteLogger () <GCDAsyncUdpSocketDelegate> {
     GCDAsyncSocket *_tcpSocket;
     GCDAsyncUdpSocket *_udpSocket;
 }

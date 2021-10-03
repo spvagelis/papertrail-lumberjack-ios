@@ -34,10 +34,20 @@ Sample log output:
 
 ## Installation
 
+### [CocoaPods](http://cocoapods.org)
+
 PaperTrailLumberjack is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
     pod 'PaperTrailLumberjack', :git => 'https://github.com/greenbits/papertrail-lumberjack-ios.git'
+
+### [Swift Package Manager](https://swift.org/package-manager)
+
+Swift Package Manager support requires Xcode 12.5 or higher.
+
+    dependencies: [
+        .package(url: "https://github.com/greenbits/papertrail-lumberjack-ios.git", .upToNextMajor(from: "2.1.0"))
+    ]
 
 ## Author
 

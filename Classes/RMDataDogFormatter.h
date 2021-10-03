@@ -3,7 +3,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CocoaLumberjack/CocoaLumberjack.h>
+@import CocoaLumberjack;
 
 @interface RMDataDogFormatter : NSObject <DDLogFormatter>
 
