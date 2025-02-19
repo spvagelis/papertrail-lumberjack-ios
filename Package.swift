@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "PaperTrailLumberjack",
-    platforms: [.iOS(.v15)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "PaperTrailLumberjack",
@@ -11,8 +11,8 @@ let package = Package(
             targets: ["PaperTrailLumberjack"])
     ],
     dependencies: [
-        .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack.git", from: "3.7.0"),
-        .package(url: "https://github.com/spvagelis/CocoaAsyncSocketDynamic.git", exact: "7.6.6")
+        .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack.git", from: "3.8.0"),
+        .package(url: "https://github.com/spvagelis/CocoaAsyncSocketDynamic.git", exact: "7.6.7")
     ],
     targets: [
         .target(
