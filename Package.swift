@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "PaperTrailLumberjack",
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "PaperTrailLumberjack",
