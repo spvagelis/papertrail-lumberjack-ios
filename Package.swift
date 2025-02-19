@@ -11,7 +11,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack.git", from: "3.7.0"),
-        .package(url: "https://github.com/spvagelis/CocoaAsyncSocketDynamic.git", branch: "master")
+        .package(url: "https://github.com/spvagelis/CocoaAsyncSocketDynamic.git", exact: "7.6.6")
     ],
     targets: [
         .target(
