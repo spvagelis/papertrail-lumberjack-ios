@@ -11,7 +11,7 @@ let package = Package(
             targets: ["PaperTrailLumberjack"])
     ],
     dependencies: [
-        .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack.git", from: "3.8.0"),
+        .package(url: "https://github.com/spvagelis/CocoaLumberjack.git", from: "3.8.7"),
         .package(url: "https://github.com/spvagelis/CocoaAsyncSocketDynamic.git", exact: "7.6.7")
     ],
     targets: [
