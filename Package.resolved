@@ -1,34 +1,33 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "CocoaAsyncSocket",
-        "repositoryURL": "https://github.com/robbiehanson/CocoaAsyncSocket.git",
-        "state": {
-          "branch": null,
-          "revision": "dbdc00669c1ced63b27c3c5f052ee4d28f10150c",
-          "version": "7.6.5"
-        }
-      },
-      {
-        "package": "CocoaLumberjack",
-        "repositoryURL": "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
-        "state": {
-          "branch": null,
-          "revision": "e518eb6e362df327574ba5e04269cd6d29f40aec",
-          "version": "3.7.2"
-        }
-      },
-      {
-        "package": "swift-log",
-        "repositoryURL": "https://github.com/apple/swift-log.git",
-        "state": {
-          "branch": null,
-          "revision": "5d66f7ba25daf4f94100e7022febf3c75e37a6c7",
-          "version": "1.4.2"
-        }
+  "originHash" : "933ba65f549d3362b11a9b0c63d86fc56c32d3077d35fd62cc7d61888e1df125",
+  "pins" : [
+    {
+      "identity" : "cocoaasyncsocketdynamic",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/spvagelis/CocoaAsyncSocketDynamic.git",
+      "state" : {
+        "revision" : "d78102feb8c30d8804eeeec0928ef9425c62bd3a",
+        "version" : "7.6.7"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "cocoalumberjack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/spvagelis/CocoaLumberjack.git",
+      "state" : {
+        "revision" : "d344df314f44bf0406c848abfd4dcf3ff02b1f05",
+        "version" : "3.8.8"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "96a2f8a0fa41e9e09af4585e2724c4e825410b91",
+        "version" : "1.6.2"
+      }
+    }
+  ],
+  "version" : 3
 }
