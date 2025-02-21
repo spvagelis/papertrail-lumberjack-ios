@@ -1,5 +1,5 @@
 {
-  "originHash" : "933ba65f549d3362b11a9b0c63d86fc56c32d3077d35fd62cc7d61888e1df125",
+  "originHash" : "6844f9e001335ca3ea2b0707d3e1884c537c931197a8e790a36b339adc70633d",
   "pins" : [
     {
       "identity" : "cocoaasyncsocketdynamic",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/spvagelis/CocoaLumberjack.git",
       "state" : {
-        "revision" : "d344df314f44bf0406c848abfd4dcf3ff02b1f05",
-        "version" : "3.8.8"
+        "revision" : "0c43c6510a0a63ae7846624978e05eeca7d56b31",
+        "version" : "3.8.9"
       }
     },
     {
